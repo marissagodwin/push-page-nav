@@ -47,8 +47,8 @@ header {
 }
 
 .navigation li:last-child a {
-  background-color: #fff;
-  color: #F15B4C;
+  background-color: #1B3D5F;
+  color: #fff;
   border-bottom: 2px solid #8AA7CB;
 }
 
@@ -61,6 +61,16 @@ header {
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
   color: #005C9B;
+}
+
+.navigation li a:hover {
+  background-color: #fff;
+  color: #005C9B;
+}
+
+.navigation li a:focus {
+  background-color: #F15B4C;
+  color: #fff;
 }
 
 .toggle-btn,

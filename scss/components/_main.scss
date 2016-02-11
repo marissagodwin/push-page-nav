@@ -45,8 +45,8 @@ header {
       border-top: 1px solid $light-blue;
     }
     &:last-child a{
-      background-color: $white;
-      color: $peach;
+      background-color: $dark-blue;
+      color: $white;
       border-bottom: 2px solid $light-blue;
     }
     a{
@@ -58,6 +58,15 @@ header {
       text-decoration: none;
       font-family: $helvetica;
       color: $blue;
+      &:hover{
+        background-color: $white;
+        color: $blue; 
+      }
+      &:focus {
+        background-color: $peach;
+        color: $white;
+      }
+
     }
   }// li
 } // .navigation
